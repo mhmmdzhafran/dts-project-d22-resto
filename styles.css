@@ -75,7 +75,7 @@ a {
 } */
 
 /* css navigation */
-.navbar{
+header{
     background-color: rgba(207, 176, 157, .7);
     position: fixed;
     width: 100%;
@@ -166,7 +166,15 @@ a {
     animation: home-heading;
     animation-duration: 3s;
     animation-fill-mode: forwards;
-    color: white;
+}
+
+.text-home h2 {
+    color: #c0ba04;
+}
+
+.text-home h3 {
+    font-size:21px;
+    color: #5a5702;
 }
 
 @keyframes home-heading {
@@ -196,7 +204,7 @@ a {
 .about-us-wrapper {
     background-image: url('assets/photo-1600565193348-f74bd3c7ccdf.jpg');
     background-size: cover;
-    padding: 300px 100px;
+    padding: 150px 100px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;

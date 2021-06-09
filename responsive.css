@@ -25,7 +25,7 @@
 
 
 /* breakpoint tab */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 868px) {
     .navbar-list ul {
         width: 73%;
     }
@@ -37,9 +37,11 @@
     #down-arrow {
         display: none;
     }
-    .about-us-wrapper {
-        text-align: center;
+
+    .about-us-header {
+        border-bottom: 1px solid black;
     }
+   
     .about-us-header, .about-us-text {
         text-align: center;
         width: 100%;
@@ -84,6 +86,9 @@
         display: flex;
         /* top: 0; */
         bottom: 200px;
+    }
+    #btn-menu {
+        padding: 12px 25px;
     }
 }
 /* akhir breakpoint hp */
