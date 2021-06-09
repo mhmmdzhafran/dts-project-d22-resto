@@ -67,10 +67,12 @@
         display: none;
     }
     .navbar-logo {
-        position: static;
-        text-align: center;
-        margin-top: 25px;
-        margin-left: -50px;
+        position: relative;
+        /* text-align: center; */
+        /* margin-top: 25px;
+        margin-left: -50px; */
+        top: 10px;
+        left: 40%;
     }
     .navbar-logo img{
         width: 90px;
@@ -78,7 +80,7 @@
     }
     .navbar-text{
         display: block;
-        top: 2px;
+        top: 0;
         left: 15px;
 
     }
@@ -86,6 +88,8 @@
         display: flex;
         /* top: 0; */
         bottom: 200px;
+        top: 20px;
+        right: 40px;
     }
     #btn-menu {
         padding: 12px 25px;
