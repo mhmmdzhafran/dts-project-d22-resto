@@ -1,4 +1,4 @@
-@media screen and (max-width:1000px) {
+@media screen and (min-width:1000px) {
     #btn-menu:hover{
         opacity: 1;
         padding-bottom:25px;
@@ -20,6 +20,12 @@
     
     #btn-menu:hover #down-arrow {
         opacity: 1;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    #down-arrow {
+        display: none;
     }
 }
 
