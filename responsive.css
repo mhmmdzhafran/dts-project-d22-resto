@@ -1,4 +1,4 @@
-@media (min-width:1000px) {
+@media screen and (max-width:1000px) {
     #btn-menu:hover{
         opacity: 1;
         padding-bottom:25px;
